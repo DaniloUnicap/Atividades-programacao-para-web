@@ -1,6 +1,6 @@
 const biblioteca = []
 
-function mostrarMenu() {
+function Menu() {
   const menu = "Menu Principal:\n" +
     "1. Cadastrar Livro\n" +
     "2. Alterar Livro\n" +
@@ -84,7 +84,7 @@ function realizarEmprestimo() {
 
 let opcao
 do {
-  opcao = mostrarMenu()
+  opcao = Menu()
 
   switch (opcao) {
     case "1":
@@ -103,6 +103,6 @@ do {
       console.log("Saindo do sistema.")
       break
     default:
-      prompt("Opção inválida. Pressione Enter para continuar.")
+      prompt("[ERRO] Opção inválida. Pressione Enter para tentar novamente.")
   }
 } while (opcao !== "5")
