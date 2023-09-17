@@ -11,4 +11,4 @@ function verificarPalavra(texto) {
     }
 }
 
-verificarPalavra("ame a ema")
+verificarPalavra("socorram me subi no onibus em marrocos")
