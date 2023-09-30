@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0C0F14;
+    color: white;
+    height: 100vh;
+}
+
+header {
+    background-color: #0A0A0E;
+    color: white;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+}
+
+h1 {
+    text-align: center;
+}
+#botoes {
+    display: flex;
+    gap: 16px;
+}
+
+button {
+    background-color: #CCE300;
+    border: none;
+    padding: .5em;
+    border-radius: .5em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: inherit;
+    border: 1px solid #CCE300;
+    color: #CCE300;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    gap: 5em;
+}
+
+.invisivel {
+    display: none !important;
+}
+
+.organizar {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #1F262C;
+    padding: 1em;
+}
+
+#divSaldo, #extrato {
+    background-color: #1F262C;
+    padding: 5em;
+}
+
+footer {
+    background-color: #0A0A0E;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 3em;
+    text-align: center;
+    color: white;
+}
+
