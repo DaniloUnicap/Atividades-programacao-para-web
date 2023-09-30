@@ -1,6 +1,6 @@
 //Danilo Fernandes Rodrigues da Silva
 
-function isMagicSquare(matrix) {
+function quadradoMagico(matrix) {
     // Verificar se a matriz é quadrada (mesmo número de linhas e colunas)
     const n = matrix.length;
     for (let i = 0; i < n; i++) {
@@ -70,6 +70,6 @@ const matrix3 = [
     [1,2,3]
 ]
 
-console.log(isMagicSquare(matrix)); // Deve retornar true
-console.log(isMagicSquare(matrix2)); // Deve retornar true
-console.log(isMagicSquare(matrix3)); // Deve retornar false
+console.log(quadradoMagico(matrix)); // Deve retornar true
+console.log(quadradoMagico(matrix2)); // Deve retornar true
+console.log(quadradoMagico(matrix3)); // Deve retornar false
